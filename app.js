@@ -30,6 +30,7 @@ const server = http.createServer((req, res) => {
 
 });
 
+// This is displaying the Secret example
 console.log(secret);
 
 server.listen(port, hostname, ()=>{
