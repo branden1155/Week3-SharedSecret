@@ -10,3 +10,6 @@
 
 
 ### Their is a commented line showing where they are inputted into the code.
+
+
+### When this node application is started, the application should connect to the server using the hostname, '127.0.0.1', and port number, '3000'. It should also transfer the secret value into a console.log() displaying the SECRET_KEY.
