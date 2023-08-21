@@ -32,4 +32,6 @@ const server = http.createServer((req, res) => {
 
 console.log(secret);
 
-server.listen(port, hostname, ()=>{})
+server.listen(port, hostname, ()=>{
+    console.log(`The server connected to host: ${hostname} using port: ${port}!`)
+})
